@@ -20,7 +20,7 @@ pd.set_option('display.float_format', lambda x: '%.3f' % x)
 pd.set_option('display.width', 500)
 
 # Veri setini okuma
-stock_path = "yahoo_manual/AYDEM.IS.csv"
+stock_path = "stock_dfs/KONTR.csv"
 stock = pd.read_csv(stock_path)
 
 # artık date sütunu index olacak
@@ -33,13 +33,18 @@ stock = stock.drop(['Date'], axis=1)
 stock.head()
 
 # excele yazma
-stock.to_excel("aydem.xlsx")
+stock.to_excel("kontr.xlsx")
+
+# Close sütunundaki tüm verileri 1 ve 0 arasına normalize etme
+#stock['Close'] = (stock['Close'] - stock['Close'].min()) / (stock['Close'].max() - stock['Close'].min())
 
 # 70% training, 15% validation, 15% test
 X_train, y_train, X_valid, y_valid, X_test, y_test = train_valid_test_split(stock, target='Close',
                                                                             train_size=0.70,
                                                                             valid_size=0.15,
-                                                                            test_size=0.15)
+                                                                            test_size=0.15,
+                                                                            method="sorted",
+                                                                            sort_by_col="Date")
 # X train valid test to csv
 X_train.to_excel('X_train.xlsx')
 X_valid.to_excel('X_valid.xlsx')

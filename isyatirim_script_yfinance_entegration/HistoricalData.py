@@ -12,6 +12,7 @@ def stock_prices(symbols, start_date, end_date):
 
     df.dropna(inplace=True)
 
+    print(df.head())
     print(df.tail())
     print(df.shape)
     return df[["Open", "High", "Low", "Close", "Adj Close", "Volume"]]

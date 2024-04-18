@@ -3,77 +3,112 @@
   <component name="CsvFileAttributes">
     <option name="attributeMap">
       <map>
-        <entry key="\bist_prepared\adana-adana-cimento-a.csv">
+        <entry key="\stock_dfs\AKBNK.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\bist_prepared\aefes-anadolu-efes.csv">
+        <entry key="\stock_dfs\AKSA.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\bist_prepared\aghol-anadolu-grubu-holding.csv">
+        <entry key="\stock_dfs\ALARK.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\bist_prepared\akbnk-akbank.csv">
+        <entry key="\stock_dfs\BAGFS.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\bist_prepared\aksen-aksa-enerji.csv">
+        <entry key="\stock_dfs\BERA.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\bist_prepared\asels-aselsan.csv">
+        <entry key="\stock_dfs\BRYAT.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\bist_prepared\bimas-bim-magazalar.csv">
+        <entry key="\stock_dfs\DEVA.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\bist_prepared\vestl-vestel.csv">
+        <entry key="\stock_dfs\DOAS.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\isyatirim_script_stock_dfs\SASA.csv">
+        <entry key="\stock_dfs\GARAN.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\stock_dfs\SASA.csv">
+        <entry key="\stock_dfs\KONTR.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />
             </Attribute>
           </value>
         </entry>
-        <entry key="\stock_dfs\THYAO.csv">
+        <entry key="\stock_dfs\LOGO.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\stock_dfs\MAVI.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\stock_dfs\ODAS.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\stock_dfs\OYAKC.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\stock_dfs\TCELL.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="\stock_dfs\YYLGD.csv">
           <value>
             <Attribute>
               <option name="separator" value="," />

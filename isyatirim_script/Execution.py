@@ -13,8 +13,8 @@ first_df["BIST 100"].dropna(inplace=True)
 if not os.path.exists('isyatirim_script_stock_dfs'):
     os.makedirs('isyatirim_script_stock_dfs')
 
-sdate = "15-12-2013"
-edate = "15-12-2023"
+sdate = "16-01-2014"
+edate = "16-01-2024"
 
 for ticker in first_df["BIST 100"]:
     if not os.path.exists('isyatirim_script_stock_dfs/{}.csv'.format(ticker)):
