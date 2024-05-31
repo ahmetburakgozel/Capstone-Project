@@ -5,9 +5,9 @@ from isyatirimhisse import StockData, Financials
 stock_data = StockData()
 financials = Financials()
 
-symbols = ['THYAO', 'PGSUS']  # Tek bir hisse senedi için tırnak içinde de verilebilir
+symbols = 'THYAO'  # Tek bir hisse senedi için tırnak içinde de verilebilir
 start_date = '01-12-2017'  # Başlangıç tarihi belirtilmeli
-end_date = '16-01-2024'  # Bitiş tarihi belirtilmezse sistem tarihini alır
+end_date = '16-05-2024'  # Bitiş tarihi belirtilmezse sistem tarihini alır
 exchange = '2'  # Hem TL hem de USD
 frequency = '1mo'  # Aylık
 observation = 'last'  # Son gözlem

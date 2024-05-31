@@ -16,8 +16,8 @@ first_df["BIST 100"].dropna(inplace=True)
 if not os.path.exists('stock_dfs'):
     os.makedirs('stock_dfs')
 
-start_date = datetime(2014, 4, 17)
-end_date = datetime(2024, 4, 17)
+start_date = datetime(2021, 7, 26)
+end_date = datetime(2024, 5, 31)
 
 for ticker in first_df["BIST 100"]:
     if not os.path.exists('stock_dfs/{}.csv'.format(ticker)):
@@ -25,4 +25,3 @@ for ticker in first_df["BIST 100"]:
         df.to_csv('stock_dfs/{}.csv'.format(ticker))
     else:
         print('Already have {}'.format(ticker))
-

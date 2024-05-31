@@ -20,7 +20,7 @@ pd.set_option('display.float_format', lambda x: '%.3f' % x)
 pd.set_option('display.width', 500)
 
 # Veri setini okuma
-stock_path = "stock_dfs/KONTR.csv"
+stock_path = "stock_dfs/HEKTS.csv"
 stock = pd.read_csv(stock_path)
 
 # artık date sütunu index olacak
@@ -28,12 +28,6 @@ stock.index = stock['Date']
 
 # axis = 1 ile kolonları siler
 stock = stock.drop(['Date'], axis=1)
-
-# head
-stock.head()
-
-# excele yazma
-stock.to_excel("kontr.xlsx")
 
 # Close sütunundaki tüm verileri 1 ve 0 arasına normalize etme
 #stock['Close'] = (stock['Close'] - stock['Close'].min()) / (stock['Close'].max() - stock['Close'].min())
@@ -45,15 +39,6 @@ X_train, y_train, X_valid, y_valid, X_test, y_test = train_valid_test_split(stoc
                                                                             test_size=0.15,
                                                                             method="sorted",
                                                                             sort_by_col="Date")
-# X train valid test to csv
-X_train.to_excel('X_train.xlsx')
-X_valid.to_excel('X_valid.xlsx')
-X_test.to_excel('X_test.xlsx')
-
-# Y train valid test to csv
-y_train.to_excel('y_train.xlsx')
-y_valid.to_excel('y_valid.xlsx')
-y_test.to_excel('y_test.xlsx')
 
 parameters = {
     # n_estimators -> tahminci sayısı

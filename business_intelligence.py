@@ -1,4 +1,4 @@
-# stock_dfs isimli klasörden fonkisyon girdisi olarak istediğim verinin kapanış değerlerini görselleştirme işlemi
+# stock_dfs isimli klasörden fonkisyon girdisi olarak istediğim verinin 10 yıllık kapanış değerlerini görselleştirme işlemi
 
 import os
 import pandas as pd
@@ -14,4 +14,4 @@ def visualize_data(stock):
     plt.show()
 
 
-visualize_data("AKBNK")
+visualize_data("HEKTS")
